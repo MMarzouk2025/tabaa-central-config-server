@@ -10,4 +10,3 @@ spring:
         git:
           uri: https://github.com/MMarzouk2025/tabaa-central-config-server
           search-paths: config
-
