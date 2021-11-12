@@ -10,5 +10,5 @@ spring:
         git:
           uri: https://github.com/MMarzouk2025/tabaa-central-config-server
 #          search-paths: config
-#          username: MMarzouk2025
-#          password: Mmo292745
+          username: MMarzouk2025
+          password: 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
