@@ -10,7 +10,36 @@ spring:
         git:
           uri: ssh://git@github.com/MMarzouk2025/tabaa-configuration
           search-paths: /{application}/{profile}
-
+          ignore-local-ssh-settings: true
+          strict-host-key-checking: false
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAzTJEXzK9vP6hmx45cb+ZNJF5uwKSmE9WOmMfVDeC1fmuOwlN
+            USnt9avmCeaVcRiXB/iET1I4mCI2kxyPb/ikgBbvfAfXo6yvSoOEkzOLiDzF3s/w
+            eTCKa6OEDxgmyjrRcWmh5qtODnOQU/wW+khWlEGClup0zChLGTH8wFxdy6/mu6vv
+            x/PpVzV4tAj3yJuVLm/AlsJoR7kxzw+3l1Chs6w/PC1Igjru40AhMNsztyyeNFTP
+            Cac/2OGLd8pKqyDQU7S3dkYDvEMcKDXDAe2uOFkW9iDPZ59uar36p5l1gAun5pLm
+            o908X7UCA7IUH9E+OBiPUM/dQqo5LTjuttm7bQIDAQABAoIBAQC+8azQDY6kZSqL
+            Bxgbclilo03sqRszIniyAnUv0Cwu45WvGBvbkDIAL4Lz6Z9cy64XW7n7eh5x6zxv
+            rt8HKhAhpbYa681NYK8JntLqi8em8i6LBWLX00Srn1CPH0FRZGRrrglbdkM/jWhb
+            zrSvGEuA0Gkt+GTRahlgC7UQZ6NcmtmE4zEAmEdhpRXv0LrhufceMN3gh6ZJiRL4
+            GqZfBne0/rzlqLjagiyYOBvWhNRKGrYu6gRG5ihAjnoWJHIXuEm7slrbF7zS2cSY
+            irg+cDS+OPH+VHs8qK3UkHb5XMU/KJjW4pfXchuMaVNzUmnLr2Su9OUUpO//GUv8
+            YF8OAkHhAoGBAPxzIU6Mg6ddZhmLIO32Mf+XbW/5JhLdrkyxY2LHfGq8Hmznf2Gi
+            8+PbP/GUXjzay0zwHU+ypYBD5hvifyGGEcJJwPYwdEpnn3qyeK5iRCl+HBIYnben
+            e6PRD91LIteWj1MEKo2wXTMR3xjc1UqoZxQJCEHzSftsqZiuq5/ynPaZAoGBANAV
+            A+uQDSt6+iccnvgm02GHV9TNH3Jx8xmZhFMgLciGwAXiy7zBUWpRkDtNt/xLBCFb
+            7MOWWV8jyFEvROezeoUGNitk7jTAIOo8LXwVxcGIy1jdiQe8S4Z5VLzxlvDxpH7l
+            z2dJTWyOyKRpLu6syL4pXWovUXdhecyGpMz6k3P1AoGALa9YE7LyEFOiqnS3HNk0
+            6yAoOd9IuJlNdauUZMfdCCPLDcJHFxA6Or3usHU9KJ4ftGivpUCbGr8u4VT31MVC
+            aXqXZPYX1W8zOS0bEdPOqgOcaNnzkMzKXzbyPAXg5Erm3Qsf+Ew2UYumaAVuw/f9
+            z25jBCxW8x0TBAJ4JJXvOeECgYEAsq2ZFCo6ZN/Q9szo5QXR9amWjjElk8yth4n/
+            yrGTHuI2+dbqREdsdfNb+tCd8JMqFMsu4DS2wa+kT7JbZOsFhjzzPwgIVFu25+yM
+            0kSP78RbeQ+in3XdFLgTP7vkdTnKmv0TwAl95n4lZKi9mE3egwxaHthLCEw3npzv
+            3uQ8whECgYAs7nr8iu/jmt00+/ayfeV81lH7DGYz+Z5QhluRhwsM6+UieIRy3PM0
+            /XLmbfoxOlS1Kj7uJezlDseYw/pBKQ6DDBCJIwKlH4BYrJdLoUySOxNxIHiAIMgB
+            8K7LhqmJdIFTm8KfAKr2P2YocGfiJ+YCQmpTrEINfDisLGyhcEPu0w==
+            -----END RSA PRIVATE KEY-----
 
 # Actuator
 management:
