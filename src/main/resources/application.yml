@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MMarzouk2025/tabaa-central-config-server
+          uri: https://github.com/MMarzouk2025/tabaa-configuration
 #          search-paths: config
