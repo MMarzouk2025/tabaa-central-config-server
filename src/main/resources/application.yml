@@ -1,12 +1,26 @@
-# server
+# Server
 server:
   port: 8888
 
-# spring cloud config server
+# Spring Cloud Config Server
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/MMarzouk2025/tabaa-configuration
-#          search-paths: config
+          uri: ssh://git@github.com/MMarzouk2025/tabaa-configuration
+          search-paths: /{application}/{profile}
+
+# Custom
+git:
+  repo:
+    key:
+      path: /static/id_rsa
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, loggers, refresh
+
