@@ -11,11 +11,6 @@ spring:
           uri: ssh://git@github.com/MMarzouk2025/tabaa-configuration
           search-paths: /{application}/{profile}
 
-# Custom
-git:
-  repo:
-    key:
-      path: /static/id_rsa
 
 # Actuator
 management:
